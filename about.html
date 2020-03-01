@@ -6,9 +6,50 @@
     <link rel="stylesheet" type="text/css" href="style.css">
     <meta name="viewport" content="width=device-width, intial-scale=1">
         </head>
-        
+        <style>
+            body {
+          font-family: Arial, Helvetica, sans-serif;
+        }
+
+        * {
+          box-sizing: border-box;
+        }
+
+        /* Style inputs */
+
+        /* Style the container/contact section */
+        .container {
+          border-radius: 5px;
+          background-color: #f2f2f2;
+          padding: 10px;
+          margin-left: 80px;
+        }
+
+        /* Create two columns that float next to eachother */
+        .column {
+          float: left;
+          width: 50%;
+          margin-top: 6px;
+          padding: 20px;
+        }
+
+
+        /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+        @media screen and (max-width: 600px) {
+          .column, input[type=submit] {
+            width: 100%;
+            margin-left: 40px;
+          }
+          .container {
+            border-radius: 5px;
+            background-color: #f2f2f2;
+            padding: 10px;
+            margin-left: 80px;
+          }
+        }
+        </style>
+
         <body>
-		
 		<header>
 			<div class ="wrapper">
 			<h1 align="center">About</h1>
@@ -24,28 +65,29 @@
 			<!--<li><a href = "photography.html">PHOTOGRAPHY</a></li>-->
 			<li><a href = "artiststatement.html">ARTIST STATEMENT</a></li>
 			<li><a href = "about.html">ABOUT</a></li>
-			<li><a href = "contact.html">CONTACT</a></li>  
+			<li><a href = "contact.html">CONTACT</a></li>
         </ul>
 			</nav>
-			<div class ="artist">
-			<div class="statement">
-            <br>
-            <br>
-			<p4>I am originally from Selma, California. I am currently living in San Jose, California where I am a graduating senior at San Jose State University. I will have a Bachelors of Arts in Graphic Design and a minor in Photography. I love going out and photographing nature and photographing in the studio. 
-				</p4>
-            <br>
-            <br>
-            <br>
-            <br>
-					</div>
-			<div class="single-image">
-			<img src="image/blindness1.jpg">
-			</div>
-            
-		</div>
+      <br>
+       <br>
+<div class="container">
+  <div class="row">
+    <div class="column">
+      <img src="/w3images/map.jpg" style="width:100%">
+    </div>
+    <div class="column">
+        <label for="subject">Subject</label>
+            </form>
+        </div>
+            </div>
+                </div>
 		</body>
-		
-			<footer>	
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+			<footer>
 				<p2>&copy; Monica Tinoco 2020</p2>
 				</footer>
 		</html>

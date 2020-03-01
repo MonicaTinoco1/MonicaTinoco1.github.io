@@ -7,8 +7,50 @@
     <meta name="viewport" content="width=device-width, intial-scale=1">
         </head>
 
-        <body>
+        <style>
+            body {
+          font-family: Arial, Helvetica, sans-serif;
+        }
 
+        * {
+          box-sizing: border-box;
+        }
+
+        /* Style inputs */
+
+        /* Style the container/contact section */
+        .container {
+          border-radius: 5px;
+          background-color: #f2f2f2;
+          padding: 10px;
+          margin-left: 80px;
+        }
+
+        /* Create two columns that float next to eachother */
+        .column {
+          float: left;
+          width: 50%;
+          margin-top: 6px;
+          padding: 20px;
+        }
+
+
+        /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+        @media screen and (max-width: 600px) {
+          .column, input[type=submit] {
+            width: 100%;
+            margin-left: 40px;
+          }
+          .container {
+            border-radius: 5px;
+            background-color: #f2f2f2;
+            padding: 10px;
+            margin-left: 80px;
+          }
+        }
+        </style>
+
+        <body>
 		<header>
 			<div class ="wrapper">
 			<h1 align="center">Artist Statement</h1>
@@ -27,22 +69,25 @@
 			<li><a href = "contact.html">CONTACT</a></li>
         </ul>
 			</nav>
-
-      <div id="textbox2">The pieces I create cannot be categorized by just pertaining to just once area but instead every piece pertains to some particular are unique. I like to use different mediums to create my work but the majority of by work in composed digitally due to my graphic design background. I like color so I do feel the need to include that in my pieces. My recent pieces have dealt with social issues that affecting the U.S. now and also affecting other countries too. I want my work to focus on current issues but also I want to create pieces that give people joy through my design work.</p4>
-            <br>
-      This semester I was introduced to many forms of art beginning with traditional print making to create works such as letterpress, etching plate, linoleum craving. For the new forms of creating work digitally was through creating artwork that lives on the internet as a designer I work with digitally but the final production is alway in print so that was a change from what I have done through out my years of school. I plan to continue on further exploring the medians I have learned to create my future artworks because through my experience this year using the appropriate medium for my concept really do strengthen the impact of my pieces.
-  
-			<div class="single-image">
-			<img src="image/blindness1.jpg">
-			</div>
+      <br>
+       <br>
+      <div class="container">
+      <div class="row">
+      <div class="column">
+      <img src="/w3images/map.jpg" style="width:100%">
       </div>
-
-		</body>
+      <div class="column">
+        <label for="subject">Subject</label>
+            </form>
+        </div>
+            </div>
+                </div>
+      </body>
     <br>
     <br>
     <br>
-
-
+    <br>
+    <br>
 			<footer>
 				<p2>&copy; Monica Tinoco 2020</p2>
 				</footer>
