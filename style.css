@@ -41,24 +41,24 @@ body {
 	text-decoration: none;
 	color: #000000;
 }
-P{ 
+P{
  padding: 10 15 545;
  font-size: 12px;
- color: #ffffff; 
+ color: #ffffff;
 }
 footer {
 	padding: 5px;
 	background-color: #f2f2f2;
-	text-align: center;	
+	text-align: center;
 }
 P2{
 font-size: 14px;
-color: #000000; 
+color: #000000;
 }
 
 .container {
 	max-width: 1250px;
-	margin: 20px 10px 0 10px;
+	margin: 20px 10px 10px 10px;
 	background: #ffffff;
 	overflow: auto;
 }
@@ -83,7 +83,7 @@ color: #000000;
 	max-width: 1250px;
 	margin: 0 0 80px 10px;
 	background: #ffffff;
-	overflow: auto;	
+	overflow: auto;
 }
 .photo {
 	margin: 50px 30px 0 0;
@@ -92,11 +92,11 @@ color: #000000;
 	height: auto;
 }
 /* artist statement page*/
-.artist {
+/*.artist {
 	max-width: 1250px;
 	margin: 0 0 20px 20px;
 	background: #ffffff;
-	overflow: auto;	
+	overflow: auto;
 }
 .statement {
 	margin: 0px 10px 11;
@@ -105,11 +105,11 @@ color: #000000;
 	width: 1200px;
 	font-family: Arial, sans-serif;
 	font-size: 15px;
-}
+}*/
 .container5 {
 	margin: 20px 400px 0;
 	background: #ffffff;
-	overflow: hidden;	
+	overflow: hidden;
 	float: center;
 }
 
@@ -219,19 +219,19 @@ body {
 	text-decoration: none;
 	color: #000000;
 }
-P{ 
+P{
  padding: 10 15 545;
  font-size: 12px;
- color: #ffffff; 
+ color: #ffffff;
 }
 footer {
 	padding: 5px;
 	background-color: #f2f2f2;
-	text-align: center;	
+	text-align: center;
 }
 P2{
 font-size: 14px;
-color: #000000; 
+color: #000000;
 }
 
 .container {
@@ -261,7 +261,7 @@ color: #000000;
 	max-width: 1250px;
 	margin: 0 0 80px 10px;
 	background: #ffffff;
-	overflow: auto;	
+	overflow: auto;
 }
 .photo {
 	margin: 50px 30px 0 0;
@@ -270,24 +270,24 @@ color: #000000;
 	height: auto;
 }
 /* artist statement page*/
-.artist {
+/*.artist {
 	max-width: 1250px;
 	margin: 0 0 20px 20px;
 	background: #ffffff;
-	overflow: auto;	
+	overflow: auto;
 }
-.statement {
+/*.statement {
 	margin: 0px 10px 11;
 	border: 1px solid #ffffff;
 	float: center;
 	width: 1200px;
 	font-family: Arial, sans-serif;
 	font-size: 15px;
-}
+}*/
 .container5 {
 	margin: 20px 400px 0;
 	background: #ffffff;
-	overflow: hidden;	
+	overflow: hidden;
 	float: center;
 }
 
@@ -397,19 +397,14 @@ body {
 	text-decoration: none;
 	color: #000000;
 }
-P{ 
+P{
  padding: 10 15 545;
  font-size: 12px;
- color: #ffffff; 
-}
-footer {
-	padding: 5px;
-	background-color: #f2f2f2;
-	text-align: center;	
+ color: #ffffff;
 }
 P2{
 font-size: 14px;
-color: #000000; 
+color: #000000;
 }
 
 .container {
@@ -439,7 +434,7 @@ color: #000000;
 	max-width: 1250px;
 	margin: 0 0 80px 10px;
 	background: #ffffff;
-	overflow: auto;	
+	overflow: auto;
 }
 .photo {
 	margin: 50px 30px 0 0;
@@ -447,28 +442,49 @@ color: #000000;
 	width: 40%;
 	height: auto;
 }
-/* artist statement page*/
-.artist {
-	max-width: 1250px;
-	margin: 0 0 20px 20px;
-	background: #ffffff;
-	overflow: auto;	
+#textbox {
+box-sizing: content-box;
+width: auto;
+height: 100px;
+padding: 30px;
+border: 10px;
 }
-.statement {
-	margin: 0px 10px 11;
-	border: 1px solid #ffffff;
-	float: center;
-	width: 1200px;
-	font-family: Arial, sans-serif;
-	font-size: 15px;
+#textbox2 {
+box-sizing: content-box;
+width: auto;
+height: 500px;
+padding: 30px;
+border: 20px;
+}
+
+#textbox3 {
+box-sizing: content-box;
+width: auto;
+height: 150px;
+padding: 30px;
+border: 20px;
+}
+#textbox4 {
+box-sizing: content-box;
+width: auto;
+height: 100px;
+padding: 50px;
+border: 20px;
 }
 .container5 {
 	margin: 20px 400px 0;
 	background: #ffffff;
-	overflow: hidden;	
+	overflow: hidden;
 	float: center;
 }
-
+.textbox {
+	font-family: Arial, sans-serif;
+	font-size: 15px;
+  text-align: justify;
+  width: 100%;
+  padding: 0px;
+  height: 200px;
+}
 /*vimeo pages*/
 
 .videos {
@@ -530,4 +546,10 @@ color: #000000;
 	height: 260px;
 }
     }
+
+footer {
+			padding: 5px;
+			background-color: #f2f2f2;
+			text-align: center;
+		}
 /*End*/
