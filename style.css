@@ -65,7 +65,7 @@ color: #000000;
 .gallery {
 	margin: 10px 0px 15px 20px;
 	border: 0 solid #ffffff;
-	float: right;
+	float: left;
 	width: 260px;
 }
 .gallery:hover {
@@ -268,7 +268,7 @@ color: #000000;
 .gallery {
 	margin: 10px 0px 15px 20px;
 	border: 0 solid #ffffff;
-	float: right;
+	float: left;
 	width: 260px;
 }
 .gallery:hover {
@@ -424,9 +424,9 @@ color: #000000;
 	overflow-x: hidden;
 }
 .gallery {
-	margin: 10px 0px 5px 30px;
+	margin: 10px 0px 15px 20px;
 	border: 0 solid #ffffff;
-	float: right;
+	float: left;
 	width: 260px;
 }
 .gallery:hover {
