@@ -63,9 +63,9 @@ color: #000000;
 	overflow-x: hidden;
 }
 .gallery {
-	margin: 10px 0px 15px 25px;
+	margin: 10px 0px 15px 20px;
 	border: 0 solid #ffffff;
-	float: left;
+	float: right;
 	width: 260px;
 }
 .gallery:hover {
@@ -266,9 +266,9 @@ color: #000000;
 	overflow-x: hidden;
 }
 .gallery {
-	margin: 10px 0px 15px 25px;
+	margin: 10px 0px 15px 20px;
 	border: 0 solid #ffffff;
-	float: left;
+	float: right;
 	width: 260px;
 }
 .gallery:hover {
@@ -424,9 +424,9 @@ color: #000000;
 	overflow-x: hidden;
 }
 .gallery {
-	margin: 10px 0px 15px 25px;
+	margin: 10px 0px 15px 20px;
 	border: 0 solid #ffffff;
-	float: left;
+	float: right;
 	width: 260px;
 }
 .gallery:hover {
