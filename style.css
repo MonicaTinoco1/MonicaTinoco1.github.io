@@ -55,17 +55,23 @@ P2{
 font-size: 14px;
 color: #000000;
 }
+.container1 {
+	max-width: 90%;
+	margin: 0px 0px 0px 25px;
+	background: #ffffff;
+	overflow: hidden;
+}
 
 .container {
 	max-width: 1250px;
 	margin: 0px 0px 0px 0px;
 	background: #ffffff;
-	overflow-x: hidden;
+	overflow: hidden;
 }
 .gallery {
 	margin: 10px 0px 25px 50px;
 	border: 0 solid #ffffff;
-	float: right;
+	float: left;
 	width: 260px;
 }
 .gallery:hover {
@@ -258,17 +264,22 @@ P2{
 font-size: 14px;
 color: #000000;
 }
-
+.container1 {
+	max-width: 90%;
+	margin: 0px 0px 0px 25px;
+	background: #ffffff;
+	overflow: hidden;
+}
 .container {
 	max-width: 1250px;
 	margin: 0px 0px 0px 0px;
 	background: #ffffff;
-	overflow-x: hidden;
+	overflow: hidden;
 }
 .gallery {
 	margin: 10px 0px 25px 50px;
 	border: 0 solid #ffffff;
-	float: right;
+	float: left;
 	width: 260px;
 }
 .gallery:hover {
@@ -416,7 +427,12 @@ P2{
 font-size: 14px;
 color: #000000;
 }
-
+.container1 {
+	max-width: 90%;
+	margin: 0px 0px 0px 25px;
+	background: #ffffff;
+	overflow: hidden;
+}
 .container {
 	max-width: 1250px;
 	margin: 0px 0px 0px 0px;
@@ -426,7 +442,7 @@ color: #000000;
 .gallery {
 	margin: 10px 0px 25px 50px;
 	border: 0 solid #ffffff;
-	float: right;
+	float: left;
 	width: 260px;
 }
 .gallery:hover {
