@@ -61,7 +61,12 @@ color: #000000;
 	background: #ffffff;
 	overflow: hidden;
 }
-
+.row2 {
+	max-width: 1250px;
+	margin: 0px 0px 0px 0px;
+	background: #ffffff;
+	overflow: auto;
+}
 .container {
 	max-width: 1250px;
 	margin: 0px 0px 0px 0px;
