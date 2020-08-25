@@ -588,7 +588,13 @@ height: 150px;
 padding: 30px;
 border: 20px;
 }
-
+#textbox13 {
+box-sizing: content-box;
+width: auto;
+height: 150px;
+padding: 30px;
+border: 20px;
+}
 
 .container5 {
 	margin: 20px 400px 0;
