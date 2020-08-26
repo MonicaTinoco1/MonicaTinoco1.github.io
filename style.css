@@ -118,10 +118,10 @@ color: #000000;
 	overflow: auto;
 }
 .xlarge-box {
-	margin: 10px 120px;
+	margin: 10px 340px;
 	border: 0 solid #ffffff;
 	float: left;
-	width: 340px;
+	width: 640px;
 }
 
 .xlarge-box img {
