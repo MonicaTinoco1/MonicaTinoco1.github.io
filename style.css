@@ -110,6 +110,21 @@
 
 /*end rectangle horiznotal photographs*/
 
+/*vimeo pages*/
+
+.videos {
+	max-width: 375px;
+	margin: 0px 5px;
+	background: #ffffff;
+	overflow: hidden;
+}
+.image {
+	margin: 0px 10px;
+	width: 360px;
+	height: 260px;
+}
+/*end vimeo pages*/
+
 /*Net art large image*/
 	.xlarge-box4 {
 		margin: 20px 40px;
@@ -286,6 +301,23 @@
 }
 
 /*end rectangle horiznotal photographs*/
+
+/*vimeo pages*/
+
+.videos {
+	max-width: 675px;
+	margin: 10px;
+	background: #ffffff;
+	overflow: hidden;
+}
+.image {
+	margin: 0px 50px;
+	width: 660px;
+	height: 560px;
+}
+/*end vimeo pages*/
+
+/*end vimeo pages*/
 
 /*Net art large image*/
 	.xlarge-box4 {
@@ -637,8 +669,8 @@ border: 20px;
 	overflow: hidden;
 }
 .image {
-	margin: 0px 370px;
-	width: 460px;
+	margin: 0px 300px;
+	width: 660px;
 	height: 560px;
 }
 
