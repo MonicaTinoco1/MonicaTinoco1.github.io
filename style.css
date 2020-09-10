@@ -114,15 +114,11 @@
 
 .videos {
 	max-width: 375px;
-	margin: 0px 5px;
+	margin: 0px 40px 95px;
 	background: #ffffff;
 	overflow: hidden;
 }
-.image {
-	margin: 0px 10px;
-	width: 360px;
-	height: 260px;
-}
+
 /*end vimeo pages*/
 
 /*Net art large image*/
@@ -306,16 +302,10 @@
 
 .videos {
 	max-width: 675px;
-	margin: 10px;
+	margin: 0px 60px 95px;
 	background: #ffffff;
 	overflow: hidden;
 }
-.image {
-	margin: 0px 50px;
-	width: 660px;
-	height: 560px;
-}
-/*end vimeo pages*/
 
 /*end vimeo pages*/
 
@@ -664,14 +654,9 @@ border: 20px;
 
 .videos {
 	max-width: 1250px;
-	margin: 10px;
+	margin: 0px 80px;
 	background: #ffffff;
 	overflow: hidden;
-}
-.image {
-	margin: 0px 300px;
-	width: 660px;
-	height: 560px;
 }
 
 /*Artist Statement image*/
