@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, intial-scale=1">
 <style>
     body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Helvetica, sans-serif;
 }
 
 * {
@@ -17,11 +17,46 @@
 /* Style inputs */
 
 /* Style the container/contact section */
+
+/* Create two columns that float next to eachother */
+
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (min-width: 375px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-left: 40px;
+  }
+  .container {
+    border-radius: 5px;
+    background-color: #ffffff;
+    padding: 15px;
+    margin-left: 50px;
+  }
+  /* Create two columns that float next to eachother */
+  .column {
+    float: left;
+    width: 70%;
+    margin-top: 35px;
+    padding: 30px;
+  }
+  footer {
+  			padding: 5px;
+  			background-color: #f2f2f2;
+  			text-align: center;
+  		}
+}
+@media screen and (min-width: 675px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-left: 80px;
+  }
+
 .container {
   border-radius: 5px;
-  background-color: #f2f2f2;
-  padding: 10px;
-  margin-left: 80px;
+  background-color: #ffffff;
+  padding: 30px;
+  margin-left: 110px;
 }
 
 /* Create two columns that float next to eachother */
@@ -31,21 +66,41 @@
   margin-top: 6px;
   padding: 20px;
 }
-
-
-/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
+footer {
+			padding: 5px;
+			background-color: #f2f2f2;
+			text-align: center;
+		}
+}
+/* overall color and settings of page for computer screen*/
+@media only screen and (min-width: 1250px) {
   .column, input[type=submit] {
     width: 100%;
-    margin-left: 40px;
+    margin-left: 85px;
   }
-  .container {
-    border-radius: 5px;
-    background-color: #f2f2f2;
-    padding: 10px;
-    margin-left: 80px;
-  }
+
+.container {
+  border-radius: 5px;
+  background-color: #ffffff;
+  padding: 20px;
+  margin-left: 80px;
 }
+
+/* Create two columns that float next to eachother */
+.column {
+  float: left;
+  width: 40%;
+  margin-top: 6px;
+  padding: 10px;
+}
+footer {
+			padding: 5px;
+			background-color: #f2f2f2;
+			text-align: center;
+		}
+}
+
+
 </style>
         </head>
 
@@ -74,10 +129,10 @@
 <div class="container">
   <div class="row">
     <div class="column">
-      <img src="image/Lines_5.jpg" style="width:80%">
+      <img src="image/Lines_5.jpg" style="width: 100%">
     </div>
     <div class="column">
-        <label for="subject">Subject</label>
+        <label for="subject">Feel free to contact me at MonicaTinoco622@gmail.com or (559)977-2404</label>
             </form>
         </div>
             </div>
@@ -88,6 +143,7 @@
        <br>
        <br>
         <br>
+
 			<footer>
 				<p2>&copy; Monica Tinoco 2020</p2>
 				</footer>

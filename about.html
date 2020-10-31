@@ -9,7 +9,7 @@
 
         <style>
             body {
-          font-family: Arial, Helvetica, sans-serif;
+          font-family: Arial,Helvetica, sans-serif;
         }
 
         * {
@@ -21,7 +21,7 @@
         /* Style the container/contact section */
         .container {
           border-radius: 5px;
-          background-color: #f2f2f2;
+          background-color: #ffffff;
           padding: 10px;
           margin-left: 80px;
         }
@@ -34,18 +34,32 @@
           padding: 20px;
         }
 
+        @media screen and (max-width: 375px) {
+          .column, input[type=submit] {
+            width: 40%;
+            margin-left: 40px;
+          }
+          .container {
+            border-radius: 5px;
+            background-color: #ffffff;
+            padding: 10px;
+            margin-left: 60px;
+
+          }
+        }
+
 
         /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
-        @media screen and (max-width: 600px) {
+        @media screen and (max-width: 575px) {
           .column, input[type=submit] {
             width: 100%;
             margin-left: 40px;
           }
           .container {
             border-radius: 5px;
-            background-color: #f2f2f2;
+            background-color: #ffffff;
             padding: 10px;
-            margin-left: 80px;
+            margin-left: 50px;
           }
         }
         </style>
@@ -74,10 +88,11 @@
       <div class="container">
       <div class="row">
       <div class="column">
-      <img src="image/the_musician.jpg" style="width:80%">
+      <img src="image/the_musician.jpg" style="width:100%">
       </div>
       <div class="column">
-        <label for="subject">Subject</label>
+        <label for="subject">My name is Monica Tinoco and I am originally from Selma, California. Currently, I’m living in San Jose, California. I attended San Jose State University and received Bachelors of Arts in Graphic Design with a minor in Photography. I enjoy going out and photographing nature and photographing in the studio. The pieces I create vary from subject matter from social issues that are affecting the world today and simple promotional pieces.  I enjoy exploring different mediums to create my design pieces because through using the appropriate medium it will better convey the message of my pieces.
+</label>
             </form>
         </div>
             </div>
